@@ -67,7 +67,7 @@ var MillionaireModel = function (data) {
 	self.setTimer = function () {
 		// Set the date we're counting down to
 		var timeObject = new Date();
-		var seconds = timeObject.getSeconds() + 61;
+		var seconds = timeObject.getSeconds() + ;
 		var countDownDate = timeObject.setSeconds(seconds);
 
 

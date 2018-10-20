@@ -8,77 +8,81 @@ distributed otherwise.
 Author: Aaron Nech
 -->
 <html>
-	<head>
-		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-	</head>
-	<body>
-		<!-- HTML5 Audio tags - weakly supported, works in Chrome(tested) -->
-		<audio id="background" src='sound/background.mp3'></audio>
-		<audio id="rightsound" src='sound/right.mp3'></audio>
-		<audio id="wrongsound" src='sound/wrong.mp3'></audio> 
 
-		<!-- Before the game begins problem set selection -->
-		<div class="flex-col-cc full-screen" id="pre-start">
-			<img class="logo__login" src="img/logo.png"/>
-			<select id="problem-set">
-			</select>
-			<button class="button" id="start">EMPEZAR A JUGAR</button>
+<head>
+	<link rel="manifest" href="/manifest.json">
+	<link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<!-- HTML5 Audio tags - weakly supported, works in Chrome(tested) -->
+	<audio id="background" src='sound/background.mp3'></audio>
+	<audio id="rightsound" src='sound/right.mp3'></audio>
+	<audio id="wrongsound" src='sound/wrong.mp3'></audio>
+
+	<!-- Before the game begins problem set selection -->
+	<div class="flex-col-cc full-screen" id="pre-start">
+		<img class="logo__login" src="img/logo.png" />
+		<select id="problem-set">
+		</select>
+		<button class="button" id="start">EMPEZAR A JUGAR</button>
+	</div>
+
+	<!-- Shown when the player wins/loses -->
+	<div class="game-win full-screen game-win__content" id="game-win">
+		<h1>¡GANASTE!</h1>
+		<canvas class='fireworks'></canvas>
+		<video class="video-ganaste" autoplay loop width="100%">
+			<source src="video/ganaste.mp4" type="video/mp4">
+		</video>
+		<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
+
+	</div>
+	<div id="game-over">
+
+	</div>
+
+	<!-- The actual game markup -->
+	<div class="grid__game" id="game">
+		<div class="time" id="time"></div>
+		<div class="options" id="options">
+			<div id="fifty" class="options-button" data-bind="click: fifty"></div>
 		</div>
-
-		<!-- Shown when the player wins/loses -->
-		<div class="game-win full-screen game-win__content" id="game-win">
-				<h1>¡GANASTE!</h1>
-				<canvas class='fireworks'></canvas>
-				<video class="video-ganaste" autoplay loop width="100%">
-					<source src="video/ganaste.mp4" type="video/mp4">
-				</video>
-				<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
-
+		<div class="logo-content"><img src="img/logo.png" id="logo" /></div>
+		<div class="levels" id="top">
+			<ul id="levels">
+				<li data-bind="css: {active: level() == 3}" data-amt="300" data-lvl="3">$300</li>
+				<li data-bind="css: {active: level() == 2}" data-amt="200" data-lvl="2">$200</li>
+				<li data-bind="css: {active: level() == 1}" data-amt="100" data-lvl="1">$100</li>
+			</ul>
+			<div class="clear"></div>
 		</div>
-		<div id="game-over">
-			
+		<div class="question-box" id="question-box">
+			<span class="content" data-bind="text: getQuestionText()"></span>
 		</div>
-
-		<!-- The actual game markup -->
-		<div class="grid__game" id="game">
-			<div class="time" id="time"></div>
-			<div class="options" id="options">
-				<div id="fifty" class="options-button" data-bind="click: fifty"></div>
+		<div class="answer-box grid__answer" id="answer-box">
+			<div id="answer-one" class="answer" data-bind="click: function() { answerQuestion(0, $element.id) }">
+				<span class="big-text">A.</span><span data-bind="text: getAnswerText(0)"></span>
 			</div>
-			<div class="logo-content"><img src="img/logo.png" id="logo" /></div>
-			<div class="levels" id="top">
-				<ul id="levels">
-					<li data-bind="css: {active: level() == 3}" data-amt="300" data-lvl="3">$300</li>
-					<li data-bind="css: {active: level() == 2}" data-amt="200" data-lvl="2">$200</li>
-					<li data-bind="css: {active: level() == 1}" data-amt="100" data-lvl="1">$100</li>
-				</ul>
-				<div class="clear"></div>
+			<div id="answer-two" class="answer" data-bind="click: function() { answerQuestion(1, $element.id) }">
+				<span class="big-text">B.</span><span data-bind="text: getAnswerText(1)"></span>
 			</div>
-			<div class="question-box" id="question-box">
-				<span class="content" data-bind="text: getQuestionText()"></span>
+			<div id="answer-three" class="answer" data-bind="click: function() { answerQuestion(2, $element.id) }">
+				<span class="big-text">C.</span><span data-bind="text: getAnswerText(2)"></span>
 			</div>
-			<div class="answer-box grid__answer" id="answer-box">
-				<div id="answer-one" class="answer" data-bind="click: function() { answerQuestion(0, $element.id) }">
-					<span class="big-text">A.</span><span data-bind="text: getAnswerText(0)"></span>
-				</div>
-				<div id="answer-two" class="answer" data-bind="click: function() { answerQuestion(1, $element.id) }">
-					<span class="big-text">B.</span><span data-bind="text: getAnswerText(1)"></span>
-				</div>
-				<div id="answer-three" class="answer" data-bind="click: function() { answerQuestion(2, $element.id) }">
-					<span class="big-text">C.</span><span data-bind="text: getAnswerText(2)"></span>
-				</div>
-				<div id="answer-four" class="answer" data-bind="click: function() { answerQuestion(3, $element.id) }">
-					<span class="big-text">D.</span><span data-bind="text: getAnswerText(3)"></span>
-				</div>
+			<div id="answer-four" class="answer" data-bind="click: function() { answerQuestion(3, $element.id) }">
+				<span class="big-text">D.</span><span data-bind="text: getAnswerText(3)"></span>
 			</div>
 		</div>
+	</div>
 
-		<!-- Script inclusion: JQuery for effects, Knockout for MVVM, millionaire.js for application -->
-		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-		<script type="text/javascript" src="js/knockout-3.0.0.js"></script>
-		<script type="text/javascript" src="js/anime.min.js"></script>
-		<script type="text/javascript" src="js/millionaire.js"></script>
+	<!-- Script inclusion: JQuery for effects, Knockout for MVVM, millionaire.js for application -->
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="js/knockout-3.0.0.js"></script>
+	<script type="text/javascript" src="js/anime.min.js"></script>
+	<script type="text/javascript" src="js/registerServiceWorker.js"></script>
+	<script type="text/javascript" src="js/millionaire.js"></script>
+</body>
 
-	</body>
 </html>
