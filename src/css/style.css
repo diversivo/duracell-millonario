@@ -157,6 +157,7 @@ audio {
 }
 .time{
 	grid-area: time;
+	color: white;
 }
 .options{
 	grid-area: options;
