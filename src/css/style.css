@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	--color-primary: #FF7E00;
+	--color-primary: #c98959;
 }
 
 body {
@@ -55,29 +55,27 @@ audio {
 }
 
 #levels {
-	float: right;
 	list-style: none;
-	margin: 0;
-	padding: 0;
 	color: white;
 	text-align: right;
-	margin-top: 40px;
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 
 .active {
-	color: green;
+	color: var(--color-primary);
 	font-weight: bold;
 	text-decoration: underline;
 }
 
 #question-box {
-	background:black;
+	background-color: var(--color-primary);
 	margin: 0 auto;
-	padding: 10px;
-	font-size: 1.5em;
-	color: white;
+	padding: 1rem;
+	font-size: 1.3em;
+	color: black;
 	text-align: center;
+	border-radius: 6px;
+	box-shadow: 1px 1px 4px black;
 }
 
 .big-text {
@@ -148,7 +146,7 @@ audio {
 .grid__game{
 	display: grid;
 	grid-template-columns: 50px 150px 450px 1fr;
-	grid-template-rows: 40% 40px auto;
+	grid-template-rows: 40% 60px auto;
 	grid-gap: 10px;
 	padding: 2rem;
 	grid-template-areas:
