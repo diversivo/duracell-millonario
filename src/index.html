@@ -36,8 +36,13 @@ Author: Aaron Nech
 				<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
 
 		</div>
-		<div id="game-over">
-			
+		<div class="game-over full-screen game-win__content" id="game-over">
+				<h1>¡UPS! HAZ PERDIDO</h1>
+				<h3>Gracias por participar ¡vuelve pronto!</h3>
+				<video class="video-ganaste" autoplay loop width="100%">
+					<source src="video/perdiste.mp4" type="video/mp4">
+				</video>
+				<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
 		</div>
 
 		<!-- The actual game markup -->

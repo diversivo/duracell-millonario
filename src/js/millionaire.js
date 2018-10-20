@@ -149,7 +149,7 @@ var MillionaireModel = function(data) {
  			startSound('wrongsound', false);
  			$("#" + elm).css('background', 'red').slideDown('slow', function() {
  				$("#game").fadeOut('slow', function() {
- 					$("#game-over").html('Game Over!');
+ 					//$("#game-over").html('Game Over!');
  					$("#game-over").fadeIn('slow');
  					self.transitioning = false;
  				});

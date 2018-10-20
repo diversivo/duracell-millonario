@@ -22,12 +22,22 @@ body {
 	position: relative;
 	background-color: black;
 }
+.game-over{
+	display: none;
+	position: relative;
+	background-color: black;
+}
 .game-win__content h1{
 	padding-top: 2rem;
 	color: white;
 	text-align: center;
 	z-index: 300;
 	font-size: 5rem;
+	position: relative
+}
+.game-win__content h3{
+	text-align: center;
+	z-index: 300;
 	position: relative
 }
 .fireworks{
@@ -93,8 +103,7 @@ audio {
 
 #game-over {
 	display: none;
-	font-size: 4em;
-	font-weight: bold;
+	background-color: black;
 	color: var(--color-primary);
 }
 
