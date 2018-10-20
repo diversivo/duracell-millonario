@@ -125,7 +125,7 @@ var MillionaireModel = function(data) {
  			startSound('rightsound', false);
  			$("#" + elm).css('background', 'green').slideDown('slow', function() {
  				self.money($(".active").data('amt'));
- 				if(self.level() + 1 > 15) {
+ 				if(self.level() + 1 > 3) {
 	 				$("#game").fadeOut('slow', function() {
 	 					$("#game-over").html('You Win!');
 	 					$("#game-over").fadeIn('slow');
