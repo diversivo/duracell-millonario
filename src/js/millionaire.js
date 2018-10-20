@@ -177,7 +177,7 @@ $(document).ready(function() {
 			ko.applyBindings(new MillionaireModel(data.games[index]));
 			$("#pre-start").fadeOut('slow', function() {
 				startSound('background', true);
-				$("#game").fadeIn('slow');
+				$("#game").fadeIn('slow').css("display","grid");
 			});
 		});
 	});
