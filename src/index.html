@@ -27,7 +27,17 @@ Author: Aaron Nech
 		</div>
 
 		<!-- Shown when the player wins/loses -->
+		<div class="game-win full-screen game-win__content" id="game-win">
+				<h1>¡GANASTE!</h1>
+				<canvas class='fireworks'></canvas>
+				<video class="video-ganaste" autoplay loop width="100%">
+					<source src="video/ganaste.mp4" type="video/mp4">
+				</video>
+				<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
+
+		</div>
 		<div id="game-over">
+			
 		</div>
 
 		<!-- The actual game markup -->
@@ -67,6 +77,8 @@ Author: Aaron Nech
 		<!-- Script inclusion: JQuery for effects, Knockout for MVVM, millionaire.js for application -->
 		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 		<script type="text/javascript" src="js/knockout-3.0.0.js"></script>
+		<script type="text/javascript" src="js/anime.min.js"></script>
 		<script type="text/javascript" src="js/millionaire.js"></script>
+
 	</body>
 </html>
