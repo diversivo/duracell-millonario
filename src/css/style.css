@@ -17,7 +17,29 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 }
-
+.game-win{
+	display: none;
+	position: relative;
+	background-color: black;
+}
+.game-win__content h1{
+	padding-top: 2rem;
+	color: white;
+	text-align: center;
+	z-index: 300;
+	font-size: 5rem;
+	position: relative
+}
+.fireworks{
+	z-index: 100;
+	position: absolute;
+	top: -35%;
+}
+.video-ganaste{
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+}
 audio {
 	display: none;
 }
@@ -71,13 +93,9 @@ audio {
 
 #game-over {
 	display: none;
-	font-size: 8em;
+	font-size: 4em;
 	font-weight: bold;
-	color: white;
-	width: 980px;
-	margin-top: 300px;
-	margin: 0 auto;
-	text-align: center;
+	color: var(--color-primary);
 }
 
 #fifty {
@@ -108,6 +126,7 @@ audio {
 	padding: 1rem;
 	margin: 0 auto;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .logo__login{
@@ -180,4 +199,11 @@ audio {
 	background-color: #FF7E00;
 	border: none;
 	color: white;
+}
+
+.absolute-button{
+	position: absolute;
+	bottom: 80px;
+	left: 80px;
+	z-index: 10000000;
 }
