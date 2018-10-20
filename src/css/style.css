@@ -1,6 +1,14 @@
 body {
 	background: black;
 	font-family: 'Roboto Slab', serif;
+	background-image: url('../img/fondo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
 }
 
 audio {
@@ -69,10 +77,8 @@ audio {
 }
 
 #logo {
-	width: 480px;
-	float: left;
-	margin-left: 240px;
-	margin-top: 60px;
+	width: 320px;
+	padding: 1rem;
 }
 
 #game-over {
@@ -106,9 +112,7 @@ audio {
 	margin: 0 auto;
 }
 
-#pre-start {
-	display: none;
-}
+
 
 .answer:hover {
 	text-decoration: underline;
@@ -126,4 +130,27 @@ audio {
 
 .options-button:hover {
 	background-position: 0 -64px !important;
+}
+
+.full-screen{
+	width: 100vw;
+	height: 100vh;
+	padding: 1rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.flex-col-cc{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.button{
+	padding: .9rem 1.8rem;
+	border-radius: 25px;
+	text-align: center;
+	background-color: #FF7E00;
+	border: none;
+	color: white;
 }

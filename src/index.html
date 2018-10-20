@@ -19,10 +19,11 @@ Author: Aaron Nech
 		<audio id="wrongsound" src='sound/wrong.mp3'></audio>
 
 		<!-- Before the game begins problem set selection -->
-		<div id="pre-start">
+		<div class="flex-col-cc full-screen" id="pre-start">
+			<img src="img/logo.png" id="logo" />
 			<select id="problem-set">
 			</select>
-			<button id="start">Start!</button>
+			<button class="button" id="start">EMPEZAR A JUGAR</button>
 		</div>
 
 		<!-- Shown when the player wins/loses -->
@@ -32,7 +33,7 @@ Author: Aaron Nech
 		<!-- The actual game markup -->
 		<div id="game">
 			<div id="top">
-				<img src="img/logo.jpg" id="logo" />
+				<img src="img/logo.png" id="logo" />
 				<ul id="levels">
 					<li data-bind="css: {active: level() == 15}" data-amt="1000000" data-lvl="15">$1,000,000</li>
 					<li data-bind="css: {active: level() == 14}" data-amt="500000" data-lvl="14">$500,000</li>
