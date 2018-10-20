@@ -20,7 +20,7 @@ Author: Aaron Nech
 
 		<!-- Before the game begins problem set selection -->
 		<div class="flex-col-cc full-screen" id="pre-start">
-			<img src="img/logo.png" id="logo" />
+			<img class="logo__login" src="img/logo.png"/>
 			<select id="problem-set">
 			</select>
 			<button class="button" id="start">EMPEZAR A JUGAR</button>
@@ -55,9 +55,6 @@ Author: Aaron Nech
 			</div>
 			<div id="options">
 				<div id="fifty" class="options-button" data-bind="click: fifty"></div>
-				<div id="phone-friend" class="options-button" data-bind="click: fadeOutOption"></div>
-				<div id="audience" class="options-button" data-bind="click: fadeOutOption"></div>
-				<div id="money">$<span data-bind="text: formatMoney()"></span></div>
 			</div>
 			<div id="question-box">
 				<span class="big-text">Q:</span>

@@ -140,6 +140,12 @@ audio {
 	box-sizing: border-box;
 }
 
+
+.logo__login{
+	width: 450px;
+	padding: 1rem;
+}
+
 .flex-col-cc{
 	display: flex;
 	flex-direction: column;
