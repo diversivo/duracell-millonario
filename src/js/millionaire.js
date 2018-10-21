@@ -67,7 +67,7 @@ var MillionaireModel = function (data) {
 	self.setTimer = function () {
 		// Set the date we're counting down to
 		var timeObject = new Date();
-		var seconds = timeObject.getSeconds() + 61;
+		var seconds = timeObject.getSeconds() + 51;
 		var countDownDate = timeObject.setSeconds(seconds);
 
 
@@ -87,12 +87,11 @@ var MillionaireModel = function (data) {
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 			// Display the result in the element with id="demo"
-			document.getElementById("time").innerHTML = minutes + "m " + seconds + "s ";
-
+			document.getElementById("time").innerHTML = `<div class="time-box" id="js-time-box"><img src="../img/time.svg" alt="time"/><p>${seconds + "s"}</p></div>`;
 			// If the count down is finished, write some text 
 			if (distance < 0) {
 				clearInterval(x);
-				document.getElementById("time").innerHTML = "EXPIRED";
+				document.getElementById("time").innerHTML = "TIEMPO";
 				self.wrongAnswer('time');
 			}
 			console.log('Here');
