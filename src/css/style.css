@@ -19,13 +19,26 @@ body {
 }
 .game-win{
 	display: none;
-	position: relative;
-	background-color: black;
 }
 .game-over{
 	display: none;
+}
+.game-win__content{
 	position: relative;
 	background-color: black;
+}
+.game-win__content::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/fondo-gameover.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	z-index: 11;
 }
 .game-win__content h1{
 	padding-top: 2rem;
@@ -38,7 +51,8 @@ body {
 .game-win__content h3{
 	text-align: center;
 	z-index: 300;
-	position: relative
+	position: relative;
+	color: white;
 }
 .fireworks{
 	z-index: 100;
@@ -68,7 +82,7 @@ audio {
 		rgba(0,0,0,0),
 		var(--color-primary)
 	);
-	padding: 1rem;
+	padding: 1rem .5rem;
 	position: relative;
 }
 .active::before{
@@ -217,6 +231,7 @@ audio {
 	color: white;
 	padding: .4rem;
 	border-radius: 6px;
+	font-size: 1.1rem;
 }
 
 .grid__answer{
