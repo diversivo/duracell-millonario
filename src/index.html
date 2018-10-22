@@ -16,11 +16,6 @@ Author: Aaron Nech
 </head>
 
 <body>
-	<!-- HTML5 Audio tags - weakly supported, works in Chrome(tested) -->
-	<audio id="background" src='sound/background.mp3'></audio>
-	<audio id="rightsound" src='sound/right.mp3'></audio>
-	<audio id="wrongsound" src='sound/wrong.mp3'></audio>
-
 	<!-- Before the game begins problem set selection -->
 	<div class="flex-col-cc full-screen" id="pre-start">
 		<img class="logo__login" src="img/logo.png" />
@@ -37,30 +32,30 @@ Author: Aaron Nech
 		<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
 	</div>
 	<div class="game-over full-screen game-win__content" id="game-over">
-			<h1>¡UPS! HAZ PERDIDO</h1>
-			<h3>Gracias por participar ¡vuelve pronto!</h3>
-			<video class="video-ganaste" autoplay loop width="100%">
-				<source src="video/perdiste.mp4" type="video/mp4">
-			</video>
-			<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
+		<h1>¡UPS! HAZ PERDIDO</h1>
+		<h3>Gracias por participar ¡vuelve pronto!</h3>
+		<video class="video-ganaste" autoplay loop width="100%">
+			<source src="video/perdiste.mp4" type="video/mp4">
+		</video>
+		<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
 	</div>
 
 	<!-- The actual game markup -->
 	<div class="grid__game" id="game">
 		<div class="time time-box">
-				<img src="../img/time.svg" alt="time"/>
-				<p id="time"></p>
+			<img src="../img/time.svg" alt="time" />
+			<p id="time"></p>
 		</div>
 		<div class="options" id="options">
 			<div id="fifty" class="options-button" data-bind="click: fifty"></div>
 		</div>
 		<div class="logo-content"><img src="img/logo.png" id="logo" /></div>
 		<div class="levels" id="top">
-				<ul id="levels">
-					<li data-bind="css: {active: level() == 3}" data-amt="300" data-lvl="3">100.000.000</li>
-					<li data-bind="css: {active: level() == 2}" data-amt="200" data-lvl="2">15.000.000</li>
-					<li data-bind="css: {active: level() == 1}" data-amt="100" data-lvl="1">1.000.000</li>
-				</ul>
+			<ul id="levels">
+				<li data-bind="css: {active: level() == 3}" data-amt="300" data-lvl="3">100.000.000</li>
+				<li data-bind="css: {active: level() == 2}" data-amt="200" data-lvl="2">15.000.000</li>
+				<li data-bind="css: {active: level() == 1}" data-amt="100" data-lvl="1">1.000.000</li>
+			</ul>
 		</div>
 
 		<div class="question-box" id="question-box">
@@ -71,8 +66,8 @@ Author: Aaron Nech
 				<span class="big-text">A.</span><span data-bind="text: getAnswerText(0)"></span>
 			</div>
 			<div id="answer-two" class="answer" data-bind="click: function() { answerQuestion(1, $element.id) }">
-					<span class="big-text">B.</span><span data-bind="text: getAnswerText(1)"></span>
-				</div>
+				<span class="big-text">B.</span><span data-bind="text: getAnswerText(1)"></span>
+			</div>
 
 			<div id="answer-three" class="answer" data-bind="click: function() { answerQuestion(2, $element.id) }">
 				<span class="big-text">C.</span><span data-bind="text: getAnswerText(2)"></span>
@@ -82,6 +77,11 @@ Author: Aaron Nech
 			</div>
 		</div>
 	</div>
+
+	<!-- HTML5 Audio tags - weakly supported, works in Chrome(tested) -->
+	<audio id="background" src='sound/background.mp3'></audio>
+	<audio id="rightsound" src='sound/right.mp3'></audio>
+	<audio id="wrongsound" src='sound/wrong.mp3'></audio>
 
 	<!-- Script inclusion: JQuery for effects, Knockout for MVVM, millionaire.js for application -->
 	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
