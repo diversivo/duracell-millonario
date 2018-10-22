@@ -40,6 +40,8 @@ self.addEventListener('install', function(event) {
     // This is an image that will be used in pre_fetched.html
     'index.html',
     'js/millionaire.js',
+    'img/50-50.png',
+    'img/duracoins.png',
     'img/fondo.jpg',
     'img/logo.png',
     'video/ganaste.mp4',
