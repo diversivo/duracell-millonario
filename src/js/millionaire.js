@@ -81,21 +81,19 @@ var MillionaireModel = function (data) {
 			var distance = countDownDate - now;
 
 			// Time calculations for days, hours, minutes and seconds
-			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 			// Display the result in the element with id="demo"
 			document.getElementById("time").innerHTML = `${seconds + "s"}`;
+			console.log(`${seconds + "s"}`);
+			
 			// If the count down is finished, write some text 
 			if (distance < 0) {
 				clearInterval(x);
 				document.getElementById("time").innerHTML = "TIEMPO";
 				self.wrongAnswer('time');
 			}
-			console.log('Here');
-		}, 1000);
+		}, 1001);
 	}
 
 	this.setTimer();
@@ -223,7 +221,6 @@ $(document).ready(function () {
 			$("#pre-start").fadeOut('slow', function () {
 				startSound('background', true);
 				$("#game").fadeIn('slow').css("display", "grid");
-				setTimer();
 			});
 		});
 	});
