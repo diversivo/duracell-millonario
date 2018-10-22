@@ -62,9 +62,26 @@ audio {
 }
 
 .active {
-	color: var(--color-primary);
 	font-weight: bold;
-	text-decoration: underline;
+	background: linear-gradient(
+		90deg,
+		rgba(0,0,0,0),
+		var(--color-primary)
+	);
+	padding: 1rem;
+	position: relative;
+}
+.active::before{
+	content: '';
+	position: absolute;
+	top: 29%;
+	left: -3%;
+	width: 127px;
+	height: 28px;
+	background-image: url('../img/duracoins.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #question-box {
@@ -134,7 +151,7 @@ audio {
 	font-size: 1.9rem;
 	text-align: center;
 	border-radius: 50%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: var(--color-primary);	
 }
 
 .time-box img{

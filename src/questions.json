@@ -3,12 +3,12 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "In what children's game are participants chased by someone designated \"It\"?",
+		            "question" : "Que te gusta más el pichi o la caca",
 		            "content" : [
-		                "Tag",
-		                "Simon Says",
-		                "Charades",
-		                "Hopscotch"
+		                "la caca",
+		                "el pichi",
+		                "las dos",
+		                "los simpsons"
 		            ],
 		            "correct" : 0
 		        },
