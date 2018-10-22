@@ -15,30 +15,13 @@ Author: Aaron Nech
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
-<body>
+<body style="background-image: url('../img/fondo.jpg');">
 	<!-- Before the game begins problem set selection -->
 	<div class="flex-col-cc full-screen" id="pre-start">
 		<img class="logo__login" src="img/logo.png" />
 		<button class="button" id="start">EMPEZAR A JUGAR</button>
 	</div>
 
-	<!-- Shown when the player wins/loses -->
-	<div class="game-win full-screen game-win__content" id="game-win">
-		<h1>¡GANASTE!</h1>
-		<canvas class='fireworks'></canvas>
-		<video class="video-ganaste" autoplay loop width="100%">
-			<source src="video/ganaste.mp4" type="video/mp4">
-		</video>
-		<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
-	</div>
-	<div class="game-over full-screen game-win__content" id="game-over">
-		<h1>¡UPS! HAZ PERDIDO</h1>
-		<h3>Gracias por participar ¡vuelve pronto!</h3>
-		<video class="video-ganaste" autoplay loop width="100%">
-			<source src="video/perdiste.mp4" type="video/mp4">
-		</video>
-		<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
-	</div>
 
 	<!-- The actual game markup -->
 	<div class="grid__game" id="game">
@@ -77,6 +60,25 @@ Author: Aaron Nech
 			</div>
 		</div>
 	</div>
+
+		<!-- Shown when the player wins/loses -->
+		<div class="game-win full-screen game-win__content" id="game-win">
+			<h1>¡GANASTE!</h1>
+			<canvas class='fireworks'></canvas>
+			<video class="video-ganaste" autoplay loop width="100%">
+				<source src="video/ganaste.mp4" type="video/mp4">
+			</video>
+			<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
+		</div>
+		<div class="game-over full-screen game-win__content" id="game-over">
+			<h1>¡UPS! HAZ PERDIDO</h1>
+			<h3>Gracias por participar ¡vuelve pronto!</h3>
+			<video class="video-ganaste" autoplay loop width="100%">
+				<source src="video/perdiste.mp4" type="video/mp4">
+			</video>
+			<button class="button absolute-button" id="reload" onClick="window.location.reload()">VOLVER A JUGAR</button>
+		</div>
+	
 
 	<!-- HTML5 Audio tags - weakly supported, works in Chrome(tested) -->
 	<audio id="background" src='sound/background.mp3'></audio>
