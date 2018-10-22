@@ -39,13 +39,14 @@ self.addEventListener('install', function(event) {
   var urlsToPrefetch = [
     // This is an image that will be used in pre_fetched.html
     'index.html',
+    'js/millionaire.js',
+    'img/fondo.jpg',
+    'img/logo.png',
     'video/ganaste.mp4',
     'video/perdiste.mp4',
     'sound/background.mp3',
     'sound/right.mp3',
     'sound/wrong.mp3',
-    'js/millonaire.js',
-    'img/fondo.jpg'
   ];
 
   // All of these logging statements should be visible via the "Inspect" interface
