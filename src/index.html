@@ -49,7 +49,10 @@ Author: Aaron Nech
 
 	<!-- The actual game markup -->
 	<div class="grid__game" id="game">
-		<div class="time" id="time"></div>
+		<div class="time time-box">
+				<img src="../img/time.svg" alt="time"/>
+				<p id="time"></p>
+		</div>
 		<div class="options" id="options">
 			<div id="fifty" class="options-button" data-bind="click: fifty"></div>
 		</div>
@@ -58,7 +61,7 @@ Author: Aaron Nech
 				<ul id="levels">
 					<li data-bind="css: {active: level() == 3}" data-amt="300" data-lvl="3">100.000.000</li>
 					<li data-bind="css: {active: level() == 2}" data-amt="200" data-lvl="2">15.000.000</li>
-					<li data-bind="css: {active: level() == 1}" data-amt="100" data-lvl="1">100.000</li>
+					<li data-bind="css: {active: level() == 1}" data-amt="100" data-lvl="1">1.000.000</li>
 				</ul>
 		</div>
 
