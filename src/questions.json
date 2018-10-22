@@ -3,32 +3,32 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "Que te gusta más el pichi o la caca",
+		            "question" : "de que color es hulk",
 		            "content" : [
-		                "la caca",
-		                "el pichi",
-		                "las dos",
-		                "los simpsons"
+		                "verde",
+		                "azul",
+		                "rojo",
+		                "trasparente"
 		            ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "On a radio, stations are changed by using what control?",
+		            "question" : "La gallina o el huevo",
 		            "content" : [
-		                "Tuning",
-		                "Volume",
-		                "Bass",
-		                "Treble"
+		                "El patoCarlo",
+		                "el Huevo",
+		                "la Gallina",
+		                "El mario bro"
 		            ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "Which material is most dense?",
+		            "question" : "El Barros Jarpa tiene",
 		            "content" : [
-		                "Silver",
-		                "Styrofoam",
-		                "Butter",
-		                "Gold"
+		                "Huevo",
+		                "Palta",
+		                "Jamon queso",
+		                "Papa Fritas"
 		            ],
 		            "correct" : 3
 		        }
@@ -37,32 +37,32 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "In the U.S., if it's not Daylight Saving Time, it's what?",
+		            "question" : "A quien le pegaron un puñete?",
 		            "content" : [
-		                "Borrowed time",
-		                "Overtime",
-		                "Standard time",
-		                "Party time"
+		                "al waton de la fruta",
+		                "Al waton loyola",
+		                "al safrada",
+		                "ojitos de piscina"
 		            ],
-		            "correct" : 2
+		            "correct" : 1
 		        },
 		        {
-		            "question" : "Which part of the body are you most likely to \"stub\"?",
+		            "question" : "Piñera tiene...",
 		            "content" : [
-		                "Toe",
-		                "Knee",
-		                "Elbow",
-		                "Brain"
+		                "las manitos cortas",
+		                "alzaimer",
+		                "Super Poderes",
+		                "Arrugas"
 		            ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "Which country is largest by area?",
+		            "question" : "Cuál es el pez más ordinario",
 		            "content" : [
-		                "UK",
-		                "USA",
-		                "Russia",
-		                "China"
+		                "el pez globo",
+		                "el pez espada",
+		                "el pezcame la..",
+		                "el pezón"
 		            ],
 		            "correct" : 2
 		        }
@@ -71,32 +71,32 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "An albino gorilla usually has what color fur?",
+		            "question" : "La gente compra iphones porque...",
 		            "content" : [
-		                "Brown",
-		                "Black",
-		                "White",
-		                "Golden"
+		                "son buenos",
+		                "duran mucho",
+		                "tienen una manzana",
+		                "la cámara"
 		            ],
 		            "correct" : 2
 		        },
 		        {
-		            "question" : "When you enter a situation without a definite plan of action, you are said to be \"playing it by\" what?",
+		            "question" : "chubaca dice",
 		            "content" : [
-		                "Fingertips",
-		                "Ear",
-		                "Nose",
-		                "Mouth"
+		                "hihohuhohuhoho",
+		                "aawgraawgraaa",
+		                "juijljulojul",
+		                "jawjawjawjawj"
 		            ],
 		            "correct" : 1
 		        },
 		        {
-		            "question" : "What is commonly known as the \"Emerald City\" in the United States?",
+		            "question" : "El mejor amigo del hombre es el",
 		            "content" : [
-		                "Palos Verdes, CA",
-		                "Seattle, WA",
-		                "New York, NY",
-		                "Dallas, TX"
+		                "sida",
+		                "perro",
+		                "dolor de muela",
+		                "gorilas"
 		            ],
 		            "correct" : 1
 		        }
@@ -105,32 +105,32 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "Which of the following consumer goods is the Gerber Products Co. best known for?",
+		            "question" : "cuantas vocales existen en el español",
 		            "content" : [
-		                "Potato chips",
-		                "Fine wines",
-		                "Chewing gum",
-		                "Baby Food"
+		                "1",
+		                "2",
+		                "4",
+		                "5"
 		            ],
 		            "correct" : 3
 		        },
 		        {
-		            "question" : "In which of these household appliances would you find a lint screen?",
+		            "question" : "Quien invento el teléfono",
 		            "content" : [
-		                "Dishwasher",
-		                "Microwave oven",
-		                "Clothes dryer",
-		                "Trash compactor"
+		                "Picasso",
+		                "grahand Bell",
+		                "Baloteli",
+		                "Los Jaivas"
 		            ],
 		            "correct" : 2
 		        },
 		        {
-		            "question" : "What are the three primary colors?",
+		            "question" : "Coca cola o Pepsi",
 		            "content" : [
-		                "Red, green, blue",
-		                "Magenta, pink, cyan",
-		                "Yellow, salmon, brown",
-		                "White, grey, black"
+		                "Pepsi",
+		                "Coca Cola",
+		                "no me gusta la bebia",
+		                "solo si es light"
 		            ],
 		            "correct" : 0
 		        }
@@ -139,32 +139,32 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "What kind of animal traditionally lives in a sty?",
+		            "question" : "que es ser piante",
 		            "content" : [
-		                "Cow",
-		                "Pig",
-		                "Fox",
+		                "es malo",
+		                "algo muy elegante",
+		                "ser pollo",
 		                "Teenager"
 		            ],
 		            "correct" : 1
 		        },
 		        {
-		            "question" : "The EPA urges people to produce less waste by engaging in efforts to reduce, reuse and what?",
+		            "question" : "Pikachu es un...",
 		            "content" : [
-		                "Recycle",
-		                "Rewrap",
-		                "Repossess",
-		                "Retire"
+		                "Pokemon",
+		                "Jugador de Futbol",
+		                "Tenista",
+		                "Empresario"
 		            ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "What is the second most common gas in the air?",
+		            "question" : "Quien es mejor la u o el colo",
 		            "content" : [
-		                "Nitrogen",
-		                "Oxygen",
-		                "Water",
-		                "Helium"
+		                "la u",
+		                "la union española",
+		                "el colo",
+		                "union San Damian"
 		            ],
 		            "correct" : 1
 		        }
