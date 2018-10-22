@@ -3,32 +3,32 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "de que color es hulk",
+		            "question" : "¿Cuál es el nombre de la compañía financiera dueña de Duracell?",
 		            "content" : [
-		                "verde",
-		                "azul",
-		                "rojo",
-		                "trasparente"
+		                "Berkshire Hathaway",
+		                "P&G",
+		                "Gillete",
+		                "Duracell"
 		            ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "La gallina o el huevo",
+		            "question" : "¿En qué segmento de pilas se enfoca Duracell?",
 		            "content" : [
-		                "El patoCarlo",
-		                "el Huevo",
-		                "la Gallina",
-		                "El mario bro"
+		                "En el segmento Pilas Alcalinas",
+		                "En el segmento Pilas Zinc Carbón",
+		                "En el segmento Pilas alcalina-litio",
+		                "En el segmento Pilas recargable"
 		            ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "El Barros Jarpa tiene",
+		            "question" : "¿Cómo se llama la pila del segmento súper alcalinas de Duracell?",
 		            "content" : [
-		                "Huevo",
-		                "Palta",
-		                "Jamon queso",
-		                "Papa Fritas"
+		                "Golden",
+		                "Max",
+		                "Ultra",
+		                "Quantum"
 		            ],
 		            "correct" : 3
 		        }

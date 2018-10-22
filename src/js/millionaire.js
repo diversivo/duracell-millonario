@@ -35,6 +35,11 @@ startSound = function (id, loop) {
 		soundHandle.setAttribute('loop', loop);
 	soundHandle.play();
 }
+stopSound = function (id) {
+	soundHandle = document.getElementById(id);
+	soundHandle.pause();
+	soundHandle.currentTime = 0;
+}
 
 /**
 * The View Model that represents one game of
@@ -162,6 +167,8 @@ var MillionaireModel = function (data) {
 				if (self.level() + 1 > 3) {
 					$("#game").fadeOut('slow', function () {
 						$("#game-win").fadeIn('slow');
+						startSound('victorysound', true);
+						stopSound('background');
 					});
 				} else {
 					self.level(self.level() + 1);
