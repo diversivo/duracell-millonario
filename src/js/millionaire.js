@@ -211,13 +211,13 @@ var MillionaireModel = function (data) {
 // being created
 $(document).ready(function () {
 	$.getJSON("questions.json", function (data) {
-		for (var i = 1; i <= data.games.length; i++) {
-			$("#problem-set").append('<option value="' + i + '">' + i + '</option>');
-		}
+		// for (var i = 1; i <= data.games.length; i++) {
+		// 	$("#problem-set").append('<option value="' + i + '">' + i + '</option>');
+		// }
 		$("#pre-start").show();
 		$("#start").click(function () {
 			var index = $('#problem-set').find(":selected").val() - 1;
-			ko.applyBindings(new MillionaireModel(data.games[index]));
+			ko.applyBindings(new MillionaireModel(data.games[Math.round(Math.random() * data.games.length)]));
 			$("#pre-start").fadeOut('slow', function () {
 				startSound('background', true);
 				$("#game").fadeIn('slow').css("display", "grid");
