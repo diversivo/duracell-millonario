@@ -37,32 +37,32 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "A quien le pegaron un puñete?",
+		            "question" : "¿Cuánto tiempo duran almacenadas las pilas Duracell?",
 		            "content" : [
-		                "al waton de la fruta",
-		                "Al waton loyola",
-		                "al safrada",
-		                "ojitos de piscina"
+		                "De 1 a 3 años",
+		                "De 7 a 10 años",
+		                "De 3 a 5 años",
+		                "Por siempre"
 		            ],
 		            "correct" : 1
 		        },
 		        {
-		            "question" : "Piñera tiene...",
+		            "question" : "¿Cuántas veces menos contaminan las pilas Duracell vs las pilas de Zinc Carbón?",
 		            "content" : [
-		                "las manitos cortas",
-		                "alzaimer",
-		                "Super Poderes",
-		                "Arrugas"
+		                "8 veces menos que una pila de Zinc Carbón",
+		                "6 veces menos que una pila de Zinc Carbón",
+		                "9 veces menos que una pila de Zinc Carbón",
+		                "3 veces menos que una pila de Zinc Carbón"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
-		            "question" : "Cuál es el pez más ordinario",
+		            "question" : "¿Cuál es la mascota ícono de Duracell?",
 		            "content" : [
-		                "el pez globo",
-		                "el pez espada",
-		                "el pezcame la..",
-		                "el pezón"
+		                "Un gato rosado",
+		                "Un canguro rosado",
+		                "Un conejo rosado",
+		                "Un perro rosado"
 		            ],
 		            "correct" : 2
 		        }
@@ -71,102 +71,102 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "La gente compra iphones porque...",
+		            "question" : "¿De qué color es la polera que utiliza el conejo de Duracell?",
 		            "content" : [
-		                "son buenos",
-		                "duran mucho",
-		                "tienen una manzana",
-		                "la cámara"
+		                "Rojo",
+		                "Verde",
+		                "Amarilla",
+		                "Azul"
 		            ],
 		            "correct" : 2
 		        },
 		        {
-		            "question" : "chubaca dice",
+		            "question" : "¿Qué lugar obtuvo Duracell en la categoría de pilas de las marcas más valoradas por los chilenos 2018?",
 		            "content" : [
-		                "hihohuhohuhoho",
-		                "aawgraawgraaa",
-		                "juijljulojul",
-		                "jawjawjawjawj"
+		                "Obtuvo el 2do lugar",
+		                "Obtuvo el 1er lugar",
+		                "Obtuvo el 3er lugar",
+		                "Ningún lugar"
 		            ],
 		            "correct" : 1
 		        },
 		        {
-		            "question" : "El mejor amigo del hombre es el",
+		            "question" : "¿Cuántas veces más dura la pila Duracell vs las pilas comunes de Zinc Carbón?",
 		            "content" : [
-		                "sida",
-		                "perro",
-		                "dolor de muela",
-		                "gorilas"
+		                "Dura hasta 8 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 6 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 10 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 3 veces más que las pilas de Zinc Carbón"
 		            ],
-		            "correct" : 1
+		            "correct" : 2
 		        }
 		    ]
 		},
 		{
 		    "questions" : [
 		        {
-		            "question" : "cuantas vocales existen en el español",
+		            "question" : "¿Cuál fue la última película con la que Duracell hizo una campaña publicitaria en redes sociales?",
 		            "content" : [
-		                "1",
-		                "2",
-		                "4",
-		                "5"
+		                "Los 4 fantásticos",
+		                "Thor",
+		                "Ironman",
+		                "Avengers Infinity War"
 		            ],
 		            "correct" : 3
 		        },
 		        {
-		            "question" : "Quien invento el teléfono",
+		            "question" : "¿Cuántos dispositivos inalámbricos hay en promedio en un hogar?",
 		            "content" : [
-		                "Picasso",
-		                "grahand Bell",
-		                "Baloteli",
-		                "Los Jaivas"
+		                "20",
+		                "15",
+		                "10",
+		                "5"
 		            ],
 		            "correct" : 2
 		        },
 		        {
-		            "question" : "Coca cola o Pepsi",
+		            "question" : "¿Qué pilas forman parte del portafolio de Duracell?",
 		            "content" : [
-		                "Pepsi",
-		                "Coca Cola",
-		                "no me gusta la bebia",
-		                "solo si es light"
+		                "Pilas Copper & Black",
+		                "Pilas Especiales",
+		                "Pilas Recargables",
+		                "Todas las anteriores"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        }
 		    ]
 		},
 		{
 		    "questions" : [
 		        {
-		            "question" : "que es ser piante",
+		            "question" : "¿Cuáles de estas pilas forman parte del portafolio de Duracell?",
 		            "content" : [
-		                "es malo",
-		                "algo muy elegante",
-		                "ser pollo",
-		                "Teenager"
+		                "AA, AAAAA, E y D",
+		                "AA, AAA, 9V, C y D",
+		                "AA, 6V y D",
+		                "AAA, 9V y G"
 		            ],
 		            "correct" : 1
 		        },
 		        {
-		            "question" : "Pikachu es un...",
+		            "question" : "¿Cuál es el comercial televisivo actual de Duracell?",
 		            "content" : [
-		                "Pokemon",
-		                "Jugador de Futbol",
-		                "Tenista",
-		                "Empresario"
+		                "Un concurso de escalada donde el bunny rosado de Duracell gana la carrera",
+		                "Una carrera donde el bunny rosado de Duracell gana.",
+		                "Una carrera de autos donde el bunny rosado de Duracell gana la carrera",
+		                "No tienen comercial"
+		            ],
+		            "correct" : 1
+		        },
+		        {
+		            "question" : "¿Cuál es la pila más comprada por nuestros consumidores?",
+		            "content" : [
+		                "AA",
+		                "AAA",
+		                "C",
+		                "D"
 		            ],
 		            "correct" : 0
-		        },
-		        {
-		            "question" : "Quien es mejor la u o el colo",
-		            "content" : [
-		                "la u",
-		                "la union española",
-		                "el colo",
-		                "union San Damian"
-		            ],
-		            "correct" : 1
 		        }
 		    ]
 		}
