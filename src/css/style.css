@@ -105,6 +105,9 @@ audio {
 	color: black;
 	text-align: center;
 	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	box-shadow: 1px 1px 4px black;
 }
 
@@ -190,7 +193,7 @@ audio {
 .grid__game{
 	display: grid;
 	grid-template-columns: 120px 150px auto 270px;
-	grid-template-rows: 40% 60px auto;
+	grid-template-rows: 40% 70px auto;
 	grid-gap: 10px;
 	padding: 2rem;
 	grid-template-areas:
