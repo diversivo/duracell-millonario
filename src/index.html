@@ -1,12 +1,5 @@
 <!DOCTYPE html>
-<!--
-Who Wants to Be a Millionaire Quiz Game Markup
-Intended to Play a Single Game.
-WWBAM materials used under fair use for academic/scholar use, should not be
-distributed otherwise.
 
-Author: Aaron Nech
--->
 <html>
 
 <head>
@@ -16,14 +9,14 @@ Author: Aaron Nech
 </head>
 
 <body style="background-image: url('../img/fondo.jpg');">
-	<!-- Before the game begins problem set selection -->
+	
 	<div class="flex-col-cc full-screen" id="pre-start">
 		<img class="logo__login" src="img/logo.png" />
 		<button class="button" id="start">EMPEZAR A JUGAR</button>
 	</div>
 
 
-	<!-- The actual game markup -->
+	
 	<div class="grid__game" id="game">
 		<div class="time time-box">
 			<img src="../img/time.svg" alt="time" />
@@ -61,7 +54,7 @@ Author: Aaron Nech
 		</div>
 	</div>
 
-		<!-- Shown when the player wins/loses -->
+		
 		<div class="game-win full-screen game-win__content" id="game-win">
 			<h1>¡GANASTE!</h1>
 			<canvas class='fireworks'></canvas>
@@ -80,13 +73,13 @@ Author: Aaron Nech
 		</div>
 	
 
-	<!-- HTML5 Audio tags - weakly supported, works in Chrome(tested) -->
+	
 	<audio id="background" src='sound/background.mp3'></audio>
 	<audio id="rightsound" src='sound/right.mp3'></audio>
 	<audio id="wrongsound" src='sound/wrong.mp3'></audio>
 	<audio id="victorysound" src='sound/victory.mp3'></audio>
 
-	<!-- Script inclusion: JQuery for effects, Knockout for MVVM, millionaire.js for application -->
+	
 	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 	<script type="text/javascript" src="js/knockout-3.0.0.js"></script>
 	<script type="text/javascript" src="js/anime.min.js"></script>
