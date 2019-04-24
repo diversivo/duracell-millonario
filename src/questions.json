@@ -15,22 +15,22 @@
 		        {
 		            "question" : "¿En qué segmento de pilas se enfoca Duracell principalmente?",
 		            "content" : [
+						"En el segmento Pilas Zinc Carbón",
 		                "En el segmento Pilas Alcalinas",
-		                "En el segmento Pilas Zinc Carbón",
 		                "En el segmento Pilas alcalina-litio",
 		                "En el segmento Pilas recargable"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cómo se llama la pila del segmento súper alcalinas de Duracell?",
 		            "content" : [
-		                "Quantum",
-		                "Max",
+						"Max",
 		                "Ultra",
+		                "Quantum",
 		                "Golden"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -49,22 +49,22 @@
 		        {
 		            "question" : "¿Cuántas veces menos contaminan las pilas Duracell vs las pilas de Zinc Carbón?",
 		            "content" : [
-		                "9 veces menos que una pila de Zinc Carbón",
-		                "8 veces menos que una pila de Zinc Carbón",
+						"8 veces menos que una pila de Zinc Carbón",
 		                "6 veces menos que una pila de Zinc Carbón",
+		                "9 veces menos que una pila de Zinc Carbón",
 		                "3 veces menos que una pila de Zinc Carbón"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
 		            "question" : "¿Cuál es la mascota ícono de Duracell?",
 		            "content" : [
+						"Un gato rosado",
 		                "Un conejo rosado",
-		                "Un gato rosado",
 		                "Un canguro rosado",
 		                "Un perro rosado"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        }
 		    ]
 		},
@@ -73,12 +73,12 @@
 		        {
 		            "question" : "¿De qué color es la polera que utiliza el conejo de Duracell?",
 		            "content" : [
-		                "Amarilla",
-		                "Rojo",
+						"Rojo",
 		                "Verde",
-		                "Azul"
+		                "Azul",
+		                "Amarilla"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        },
 		        {
 		            "question" : "¿Qué lugar obtuvo Duracell en la categoría de pilas de las marcas más valoradas por los chilenos 2018?",
@@ -93,26 +93,26 @@
 		        {
 		            "question" : "¿Cuántas veces más dura la pila Duracell vs las pilas comunes de Zinc Carbón?",
 		            "content" : [
+						"Dura hasta 8 veces más que las pilas de Zinc Carbón",
 		                "Dura hasta 10 veces más que las pilas de Zinc Carbón",
-		                "Dura hasta 8 veces más que las pilas de Zinc Carbón",
 		                "Dura hasta 6 veces más que las pilas de Zinc Carbón",
 		                "Dura hasta 3 veces más que las pilas de Zinc Carbón"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        }
 		    ]
 		},
 		{
 		    "questions" : [
 		        {
-		            "question" : "¿Cuál fue la última película con la que Duracell hizo una campaña publicitaria en redes sociales?",
+		            "question" : "¿Cuántas veces más dura la pila Duracell vs las pilas comunes de Zinc Carbón?",
 		            "content" : [
-		                "Avengers Infinity War",
-		                "Los 4 fantásticos",
-		                "Thor",
-		                "Ironman"
+		                "Dura hasta 6 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 8 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 10 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 3 veces más que las pilas de Zinc Carbón"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
 		            "question" : "¿Cuántos dispositivos inalámbricos hay en promedio en un hogar?",
@@ -141,12 +141,12 @@
 		        {
 		            "question" : "¿Cuáles de estas pilas forman parte del portafolio de pilas alcalinas de Duracell?",
 		            "content" : [
+						"AA, AAAAA, E y D",
 		                "AA, AAA, 9V, C y D",
-		                "AA, AAAAA, E y D",
 		                "AA, 6V y D",
 		                "AAA, 9V y G"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cuál es el comercial televisivo actual de Duracell?",
@@ -161,12 +161,12 @@
 		        {
 		            "question" : "¿Cuál es el formato de pila más comprada en Chile?",
 		            "content" : [
-		                "AA",
-		                "AAA",
+						"AAA",
 		                "C",
+		                "AA",
 		                "D"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -185,36 +185,36 @@
 		        {
 		            "question" : "¿En qué se inspiraron para crear al conejo Duracell como ícono de la marca?",
 		            "content" : [
-		                "En el “Conejo del Tambor”",
-		                "En el conejo de “Alicia en el país de las maravillas”",
+						"En el conejo de “Alicia en el país de las maravillas”",
 		                "En el conejo del cuento “La liebre y la tortuga",
+		                "En el “Conejo del Tambor”",
 		                "Ninguna de las anteriores"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
-		            "question" : "¿Quién fue el creador de la pila Duracell?",
+					"question" : "¿Cuál fue la primera pila en ir a la luna?",
 		            "content" : [
-		                "George Leclanche",
-		                "George Bush",
-		                "George Lucas",
-		                "George Méliès"
+		                "Panasonic",
+		                "Energizer",
+		                "Sony",
+		                "Duracell"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        }
 		    ]
 		},
 		{
 		    "questions" : [
 		        {
-		            "question" : "¿De qué nacionalidad es el creador de la pila Duracell?",
+		            "question" : "¿Cuál fue la primera pila en ir a la luna?",
 		            "content" : [
-		                "Francés",
-		                "Alemán",
-		                "Sueco",
-		                "Estadounidense"
+		                "Panasonic",
+		                "Energizer",
+		                "Sony",
+		                "Duracell"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        },
 		        {
 		            "question" : "¿Cómo se llama la pila alcalina N° 1 del mundo?",
@@ -229,12 +229,12 @@
 		        {
 		            "question" : "¿Cuándo nació el conejito Duracell?",
 		            "content" : [
+						"En el año 1983",
 		                "En el año 1973",
-		                "En el año 1983",
 		                "En el año 1963",
 		                "En el año 1953"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        }
 		    ]
 		},
@@ -251,24 +251,24 @@
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "¿Cuántos tipos de pila tiene Duracell en el mercado?",
+		            "question" : "¿En qué segmento de pilas se enfoca Duracell principalmente?",
 		            "content" : [
-		                "20",
-		                "12",
-		                "14",
-		                "16"
+						"En el segmento Pilas Zinc Carbón",
+		                "En el segmento Pilas Alcalinas",
+		                "En el segmento Pilas alcalina-litio",
+		                "En el segmento Pilas recargable"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
-		            "question" : "¿De qué material está hecha la pila alcalina Duracell?",
+		            "question" : "¿Cuál es la mascota ícono de Duracell?",
 		            "content" : [
-		                "Lata, ánodo, colector de corriente, cátodo, separador y tapa",
-		                "Lata, ánodo, colector de corriente y tapa",
-		                "Lata, electrón, cátodo, separador y tapa",
-		                "Lata, electrón, separador y tapa"
+						"Un gato rosado",
+		                "Un canguro rosado",
+		                "Un conejo rosado",
+		                "Un perro rosado"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -287,22 +287,22 @@
 		        {
 		            "question" : "¿Cuál es el dispositivo médico más común que utiliza pilas?",
 		            "content" : [
+						"Termómetro",
 		                "Tomador de presión arterial",
-		                "Termómetro",
 		                "Oxímetro de pulso",
 		                "Estetoscopio"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cuál es el dispositivo más común que utiliza pilas en el hogar?",
 		            "content" : [
-		                "Control remoto",
-		                "Detector de incendios",
+						"Detector de incendios",
 		                "Rasuradora",
+		                "Control remoto",
 		                "Cepillo de dientes"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -311,12 +311,12 @@
 		        {
 		            "question" : "¿Cuál es el dispositivo más común para el camping que utiliza pilas?",
 		            "content" : [
+						"Calentador de agua",
 		                "Linterna",
-		                "Calentador de agua",
 		                "Radio",
 		                "Cargador portátil de celular"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cuál es el dispositivo para el auto más común que utiliza pilas?",
@@ -331,12 +331,12 @@
 		        {
 		            "question" : "¿Cuál es el uso más común de la Pila D en el hogar?",
 		            "content" : [
-		                "Para el calefont",
-		                "Para la radio",
+						"Para la radio",
 		                "Para los juguetes",
-		                "Para las linternas"
+		                "Para las linternas",
+		                "Para el calefont"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        }
 		    ]
 		},
@@ -379,12 +379,12 @@
 		        {
 		            "question" : "¿Cuál es el nombre de la compañía financiera dueña de Duracell?",
 		            "content" : [
-		                "Berkshire Hathaway",
-		                "P&G",
+						"P&G",
 		                "Gillete",
+		                "Berkshire Hathaway",
 		                "Duracell"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
 		            "question" : "¿En qué segmento de pilas se enfoca Duracell principalmente?",
@@ -399,12 +399,12 @@
 		        {
 		            "question" : "¿Cómo se llama la pila del segmento súper alcalinas de Duracell?",
 		            "content" : [
-		                "Quantum",
-		                "Max",
+						"Max",
 		                "Ultra",
-		                "Golden"
+		                "Golden",
+		                "Quantum"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        }
 		    ]
 		},
@@ -413,22 +413,22 @@
 		        {
 		            "question" : "¿Cuánto tiempo duran almacenadas las pilas Duracell?",
 		            "content" : [
+						"De 1 a 3 años",
 		                "De 7 a 10 años",
-		                "De 1 a 3 años",
 		                "De 3 a 5 años",
 		                "Por siempre"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 					"question" : "¿Cuáles son las 4 químicas de las pilas especiales?",
 		            "content" : [
+						"Litio, Alcalina Especial y Óxido de Plata",
 		                "Litio, Alcalina Especial, Litio de Alto Poder y Óxido de Plata",
-		                "Litio, Alcalina Especial y Óxido de Plata",
 		                "Litio de Alto Poder, Óxido de Plata, Alcalina y Fotografía",
 		                "Ninguna de las anteriores"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cuál es la mascota ícono de Duracell?",
@@ -447,12 +447,12 @@
 		        {
 		            "question" : "¿De qué color es la polera que utiliza el conejo de Duracell?",
 		            "content" : [
-		                "Amarilla",
-		                "Rojo",
+						"Rojo",
 		                "Verde",
+		                "Amarilla",
 		                "Azul"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
 		            "question" : "¿Qué lugar obtuvo Duracell en la categoría de pilas de las marcas más valoradas por los chilenos 2018?",
@@ -467,26 +467,26 @@
 		        {
 		            "question" : "¿Cuántas veces más dura la pila Duracell vs las pilas comunes de Zinc Carbón?",
 		            "content" : [
+						"Dura hasta 8 veces más que las pilas de Zinc Carbón",
 		                "Dura hasta 10 veces más que las pilas de Zinc Carbón",
-		                "Dura hasta 8 veces más que las pilas de Zinc Carbón",
 		                "Dura hasta 6 veces más que las pilas de Zinc Carbón",
 		                "Dura hasta 3 veces más que las pilas de Zinc Carbón"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        }
 		    ]
 		},
 		{
 		    "questions" : [
 		        {
-		            "question" : "¿Cuál fue la última película con la que Duracell hizo una campaña publicitaria en redes sociales?",
+					"question" : "¿Cuántas veces más dura la pila Duracell vs las pilas comunes de Zinc Carbón?",
 		            "content" : [
-		                "Avengers Infinity War",
-		                "Los 4 fantásticos",
-		                "Thor",
-		                "Ironman"
+		                "Dura hasta 6 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 8 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 10 veces más que las pilas de Zinc Carbón",
+		                "Dura hasta 3 veces más que las pilas de Zinc Carbón"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
 					"question" : "¿Cuántas veces menos contaminan las pilas Duracell vs las pilas de Zinc Carbón?",
@@ -525,22 +525,22 @@
 		        {
 		            "question" : "¿Cuál es el comercial televisivo actual de Duracell?",
 		            "content" : [
+						"Un concurso de escalada donde el bunny rosado de Duracell gana la carrera",
 		                "Una carrera donde el bunny rosado de Duracell gana",
-		                "Un concurso de escalada donde el bunny rosado de Duracell gana la carrera",
 		                "Una carrera de autos donde el bunny rosado de Duracell gana la carrera",
 		                "No tienen comercial"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cuál es el formato de pila más comprada en Chile?",
 		            "content" : [
-		                "AA",
-		                "AAA",
+						"AAA",
 		                "C",
+		                "AA",
 		                "D"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -549,12 +549,12 @@
 		        {
 		            "question" : "¿Cuál de estas consolas utiliza pilas Duracell?",
 		            "content" : [
-		                "Control Xbox",
-		                "Control Play Station",
+						"Control Play Station",
 		                "Control Nintendo Wii",
+		                "Control Xbox",
 		                "Control Super Nintendo"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
 		            "question" : "¿En qué se inspiraron para crear al conejo Duracell como ícono de la marca?",
@@ -569,26 +569,26 @@
 		        {
 		            "question" : "¿Cuál es el dispositivo más común que utiliza pilas en el hogar?",
 		            "content" : [
+						"Detector de incendios",
 		                "Control remoto",
-		                "Detector de incendios",
 		                "Rasuradora",
 		                "Cepillo de dientes"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        }
 		    ]
 		},
 		{
 		    "questions" : [
 		        {
-		            "question" : "¿De qué nacionalidad es el creador de la pila Duracell?",
+		            "question" : "¿Qué marca de juguetes recomienda usar pilas Duracell?",
 		            "content" : [
-		                "Francés",
-		                "Alemán",
-		                "Sueco",
-		                "Estadounidense"
+		                "Max Steel",
+		                "Mattel",
+		                "Fisher-Price",
+		                "HASBRO"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        },
 		        {
 		            "question" : "¿Cómo se llama la pila alcalina N° 1 del mundo?",
@@ -617,12 +617,12 @@
 		        {
 		            "question" : "¿Cuál fue la primera pila en ir a la luna?",
 		            "content" : [
+						"Energizer",
 		                "Duracell",
-		                "Energizer",
 		                "Sony",
 		                "Panasonic"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 					"question" : "¿Cuál es el dispositivo más común que utiliza pilas en el hogar?",
@@ -637,12 +637,12 @@
 		        {
 					"question" : "¿Cuáles son las 4 químicas de las pilas especiales?",
 		            "content" : [
-		                "Litio, Alcalina Especial, Litio de Alto Poder y Óxido de Plata",
-		                "Litio, Alcalina Especial y Óxido de Plata",
+						"Litio, Alcalina Especial y Óxido de Plata",
 		                "Litio de Alto Poder, Óxido de Plata, Alcalina y Fotografía",
+		                "Litio, Alcalina Especial, Litio de Alto Poder y Óxido de Plata",
 		                "Ninguna de las anteriores"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -651,12 +651,12 @@
 		        {
 		            "question" : "¿Qué marca de juguetes recomienda usar pilas Duracell?",
 		            "content" : [
+						"Mattel",
 		                "HASBRO",
-		                "Mattel",
 		                "Fisher-Price",
 		                "Max Steel"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cuál es el dispositivo médico más común que utiliza pilas?",
@@ -671,12 +671,12 @@
 		        {
 		            "question" : "¿Cuál es el dispositivo más común que utiliza pilas en el hogar?",
 		            "content" : [
-		                "Control remoto",
-		                "Detector de incendios",
+						"Detector de incendios",
 		                "Rasuradora",
+		                "Control remoto",
 		                "Cepillo de dientes"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -685,12 +685,12 @@
 		        {
 					"question" : "¿Cuántas veces menos contaminan las pilas Duracell vs las pilas de Zinc Carbón?",
 		            "content" : [
+						"8 veces menos que una pila de Zinc Carbón",
 		                "9 veces menos que una pila de Zinc Carbón",
-		                "8 veces menos que una pila de Zinc Carbón",
 		                "6 veces menos que una pila de Zinc Carbón",
 		                "3 veces menos que una pila de Zinc Carbón"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "¿Cuál es el dispositivo para el auto más común que utiliza pilas?",
@@ -705,12 +705,12 @@
 		        {
 		            "question" : "¿Cuál es el uso más común de la Pila D en el hogar?",
 		            "content" : [
-		                "Para el calefont",
-		                "Para la radio",
+						"Para la radio",
 		                "Para los juguetes",
+		                "Para el calefont",
 		                "Para las linternas"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        }
 		    ]
 		},
@@ -719,12 +719,12 @@
 				{
 		            "question" : "¿Cuál es el dispositivo más común que utiliza pilas en el hogar?",
 		            "content" : [
-		                "Control remoto",
-		                "Detector de incendios",
+						"Detector de incendios",
 		                "Rasuradora",
+		                "Control remoto",
 		                "Cepillo de dientes"
 		            ],
-		            "correct" : 0
+		            "correct" : 2
 		        },
 		        {
 		            "question" : "¿Qué formatos de pilas Recargables Duracell se encuentra en Chile?",
@@ -739,12 +739,12 @@
 				{
 		            "question" : "¿Cuáles son las 4 químicas de las pilas especiales?",
 		            "content" : [
+						"Litio, Alcalina Especial y Óxido de Plata",
 		                "Litio, Alcalina Especial, Litio de Alto Poder y Óxido de Plata",
-		                "Litio, Alcalina Especial y Óxido de Plata",
 		                "Litio de Alto Poder, Óxido de Plata, Alcalina y Fotografía",
 		                "Ninguna de las anteriores"
 		            ],
-		            "correct" : 0
+		            "correct" : 1
 		        }
 		    ]
 		}
