@@ -285,14 +285,14 @@
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "¿Cuál es el dispositivo médico más común que utiliza pilas?",
+		            "question" : "¿Cuál es el formato de pila más comprada en Chile?",
 		            "content" : [
-						"Termómetro",
-		                "Tomador de presión arterial",
-		                "Oxímetro de pulso",
-		                "Estetoscopio"
+						"AAA",
+		                "C",
+		                "AA",
+		                "D"
 		            ],
-		            "correct" : 1
+		            "correct" : 2
 		        },
 		        {
 		            "question" : "¿Cuál es el dispositivo más común que utiliza pilas en el hogar?",
@@ -659,14 +659,14 @@
 		            "correct" : 1
 		        },
 		        {
-		            "question" : "¿Cuál es el dispositivo médico más común que utiliza pilas?",
+		            "question" : "¿Cuál fue la primera pila en ir a la luna?",
 		            "content" : [
-		                "Tomador de presión arterial",
-		                "Termómetro",
-		                "Oxímetro de pulso",
-		                "Estetoscopio"
+		                "Panasonic",
+		                "Energizer",
+		                "Sony",
+		                "Duracell"
 		            ],
-		            "correct" : 0
+		            "correct" : 3
 		        },
 		        {
 		            "question" : "¿Cuál es el dispositivo más común que utiliza pilas en el hogar?",
